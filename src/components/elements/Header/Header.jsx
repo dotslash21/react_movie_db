@@ -15,7 +15,7 @@ const Header = () => {
         </Link>
         <img
           src="./images/tmdb_logo.png"
-          alt="rmdb-tmdb-logo"
+          alt="tmdb-logo"
           className="rmdb-tmdb-logo"
         />
       </div>

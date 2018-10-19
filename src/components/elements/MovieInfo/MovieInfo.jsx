@@ -13,7 +13,7 @@ const MovieInfo = props => {
           ? `url('${IMAGE_BASE_URL}${BACKDROP_SIZE}${
               props.movie.backdrop_path
             }')`
-          : "#000000"
+          : "#000"
       }}
     >
       <div className="rmdb-movieinfo-content">
@@ -29,7 +29,7 @@ const MovieInfo = props => {
         </div>
         <div className="rmdb-movieinfo-text">
           <h1>{props.movie.title}</h1>
-          <h5>PLOT</h5>
+          <h3>PLOT</h3>
           <p>{props.movie.overview}</p>
           <h3>IMDB RATING</h3>
           <div className="rmdb-rating">
